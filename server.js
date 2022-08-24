@@ -24,7 +24,7 @@ module.exports = function (options) {
             yapi.commons.log('init openid client successfully');
 
         } catch (err) {
-            console.error('init okta failed', err);
+            yapi.commons.error('init openid client failed: ' + ( err.message || err.cause) , 'error');
         }
     }
 

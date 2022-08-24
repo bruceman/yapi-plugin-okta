@@ -40,6 +40,6 @@ The options descriptions:
 - `client_id`  the okta client id
 - `client_secret` the okta client secret 
 - `redirect_uri` the redirect url after okta login successfully 
-- `btnText` the text of okta login button
+- `btnText` the text of okta login button (optional)
 
 
