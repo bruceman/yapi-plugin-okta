@@ -1,0 +1,10 @@
+{
+    "name": "yapi-plugin-okta",
+    "version": "0.1.0",
+    "author": "bruceman",
+    "license": "Apache License 2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bruceman/yapi-plugin-okta.git"
+    }
+}
