@@ -17,7 +17,7 @@ module.exports = function (options) {
     };
     const OktaLoginComponent = (props = {}) => (
         <button onClick={() => handleLogin(props)} className='btn-home btn-home-normal btn-okta-login'>
-            { btnText }
+            { props.btnText || btnText }
         </button>
     );
 
